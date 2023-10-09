@@ -41,6 +41,14 @@
 		</dependency>
 	</dependencies>
 
+	<!-- Configuração de distribuição para o repositório Maven -->
+	<distributionManagement>
+		<repository>
+			<id>seu-repositorio-id</id>
+			<url>https://seu-repositorio-maven-url</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
