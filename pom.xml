@@ -45,13 +45,22 @@
 	</dependencies>
 
 	<!-- Configuração de distribuição para o repositório Maven -->
+<!--	<distributionManagement>-->
+<!--		<repository>-->
+<!--			<id>jonca-lib-java</id>-->
+<!--			<url>https://github.com/josiasmartins/jonca-lib-java</url>-->
+<!--			<name>Jonca Library</name>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
+
 	<distributionManagement>
-		<repository>
-			<id>jonca-lib-java</id>
-			<url>https://github.com/josiasmartins/jonca-lib-java</url>
-			<name>Jonca Library</name>
-		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>a0xxxxplegvl3-artifactory-primary-0-snapshots</name>
+			<url>https://josiasmartins.jfrog.io/artifactory/libs-snapshot</url>
+		</snapshotRepository>
 	</distributionManagement>
+
 	<licenses>
 		<license>
 			<name>The Apache License, Version 2.0</name>
@@ -68,12 +77,12 @@
 		</developer>
 	</developers>
 
-	<scm>
-		<connection>scm:git:git://github.com/josiasmartins/jonca-lib-java.git</connection>
-		<developerConnection>scm:git:ssh://github.com:josiasmartins/jonca-lib-java</developerConnection>
-		<url>https://github.com/josiasmartins/jonca-lib-java</url>
-	  <tag>v0.0.1</tag>
-  </scm>
+<!--	<scm>-->
+<!--		<connection>scm:git:git://github.com/josiasmartins/jonca-lib-java.git</connection>-->
+<!--		<developerConnection>scm:git:ssh://github.com:josiasmartins/jonca-lib-java</developerConnection>-->
+<!--		<url>https://github.com/josiasmartins/jonca-lib-java</url>-->
+<!--	  <tag>v0.0.1</tag>-->
+<!--  </scm>-->
 
 
 	<build>
