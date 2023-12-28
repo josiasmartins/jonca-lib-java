@@ -14,15 +14,28 @@ mvn install jonca-library-java
 <details>
   <summary>Annotations</summary>
   <h3>Logger</h3>
+  <h5>Anotacao para logar os dados no logstash</h5>
 
 Example:
 
 ```Java
-public @interface Logger {
+import com.techbuzzblogs.rest.camelproject.decorators.Logger;
+import lombok.Builder;
+import lombok.Data;
 
-    String value() default "";
+@Data
+@Builder
+public class CarDetailsType {
+
+    @Logger
+    private String carName;
+
+    @Logger
+    private String carModel;
+    private String company;
 
 }
+
 ```
 </details>
 
