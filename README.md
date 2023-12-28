@@ -2,7 +2,8 @@
 # jonca-library-java
 
 ## Features
-...
+Biblioteca com vários peças estruturais e não, para ajudar em desenvolvimento
+
 ## Installation
 
 Bash
