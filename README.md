@@ -42,6 +42,7 @@ public class CarDetailsType {
 <details>
   <summary>Processors</summary>
   <h3>Base64ObjectProcessor</h3>
+  <h5>Transforma todas as propriedades da classe java em base 64 ENCODE | DECODE</h5>
 
   Example:
 
