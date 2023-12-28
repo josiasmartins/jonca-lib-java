@@ -87,9 +87,10 @@ from("direct:start")
 
 ## Documentation
 
-For comprehensive documentation and usage examples, please visit the project's GitHub repository: https://github.com/josiasmartins/jonca-library-node
+For comprehensive documentation and usage examples, please visit the project's GitHub repository: https://github.com/josiasmartins/jonca-library-java
 
 ## Contributing
+Author: Josias Martins Caitano
 
 Contributions are always welcome! Fork the repository, make your changes, and submit a pull request.
 
