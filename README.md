@@ -67,7 +67,7 @@ from("direct:start")
 
   <h3>LoggerUtil</h3>
   <h5>
-    Percorre todas as propriedades de qualquer objeto (simples, complexo), e salva no Map em todas as propriedades salvas.
+    Percorre todas as propriedades de qualquer objeto (simples, complexo), e salva no Map em todas as propriedades salvas.<br>
     Obs: essa verificacao faz com base no annotation Logger
   </h5>
 
