@@ -64,6 +64,23 @@ from("direct:start")
 
 <details>
   <summary>Utils</summary>
+
+  <h3>LoggerUtil</h3>
+  <h5>
+    Percorre todas as propriedades de qualquer objeto (simples, complexo), e salva no Map em todas as propriedades salvas.
+    Obs: essa verificacao faz com base no annotation Logger
+  </h5>
+
+  Example:
+
+  ```java
+   @Override
+    public void process(Exchange exchange) throws Exception {
+        CarDetailsType body = exchange.getIn().getBody(CarDetailsType.class);
+
+        Map<String, String> mapper = LoggerMethodUtil.extractProperties(body);
+    }
+  ```
 </details>
 
 
