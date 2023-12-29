@@ -4,7 +4,7 @@
 ## Features
 Biblioteca com vários peças estruturais e não, para ajudar em desenvolvimento
 
-## Instalalation localhost
+## Instalation localhost
 <details>
   <summary>Artifacts</summary>
 
