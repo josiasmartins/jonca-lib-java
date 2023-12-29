@@ -6,7 +6,7 @@ Biblioteca com vários peças estruturais e não estruturais, para ajudar no des
 
 ## Instalation localhost
 <details>
-  <summary>Artifacts</summary>
+  <summary>Generate Artifacts</summary>
 
 - 1 Baixar a lib
   ```Bash
@@ -17,6 +17,18 @@ Biblioteca com vários peças estruturais e não estruturais, para ajudar no des
     ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/a308856f-d25b-47d7-8981-076bee98f617)
 
   create ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/e037a6ab-3d78-434b-979e-be8dffec3592)
+</details>
+
+<details>
+  <summary>Usage artifacts in other projects</summary>
+
+- 1 Adicionar o artifacts:
+    Project Structure -> Project Setttings -> Libraries
+    ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/d3877f2f-a86b-4f05-a89a-906d4382637b)
+
+  create
+  ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/5c199138-7d2c-483b-b79b-a0a3fc297c04)
+  
 </details>
 
 
