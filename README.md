@@ -4,6 +4,19 @@
 ## Features
 Biblioteca com vários peças estruturais e não, para ajudar em desenvolvimento
 
+## Instalalation localhost
+- 1 Baixar a lib
+  ```Bash
+    git clone https://github.com/josiasmartins/jonca-library-java.git
+  ```
+- 2 Gerar o Artifacts jar:
+    Project Structure -> Project Setttings -> Artifacts
+    ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/a308856f-d25b-47d7-8981-076bee98f617)
+
+  create ![image](https://github.com/josiasmartins/jonca-library-java/assets/60591410/e037a6ab-3d78-434b-979e-be8dffec3592)
+
+
+
 ## Installation
 
 Bash
